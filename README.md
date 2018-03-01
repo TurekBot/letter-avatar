@@ -10,6 +10,16 @@ A Material-Design-like avatar that displays the first letter of a user's name. S
 2. Add to SceneBuilder
     1. ![Add to SceneBuilder Animation](https://i.imgur.com/7DHuDJQ.gif)
 
+## Sample Usage
+```java            
+// The argument will determine the background color; this will always be the same color for the same input.
+// This assumes you want the avatar's letter to be the first letter of the user's name.
+LetterAvatar la = new LetterAvatar(user.getName());
+
+// If you want to be explicit about which letter to use, use this constructor.
+LetterAvatar la = new LetterAvatar("B", "some unique-to-the-user value");
+```
+---
 
 ## Change Avatar Character
 I designed LetterAvatar to have one character, but if you felt like it, maybe you could put two.
