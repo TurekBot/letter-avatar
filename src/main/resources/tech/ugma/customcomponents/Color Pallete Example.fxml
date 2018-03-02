@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import tech.ugma.customcomponents.LetterAvatar?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox>
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <LetterAvatar colorNumber="50" />
+                  <Label text="50" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="100" />
+                  <Label text="100" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="78.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="200" />
+                  <Label text="200" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="146.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar />
+                  <Label text="300" textAlignment="CENTER" />
+                  <Label layoutX="34.0" layoutY="236.0" text="default" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="214.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="400" />
+                  <Label text="400" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="282.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="500" />
+                  <Label text="500" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="350.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="600" />
+                  <Label text="600" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="418.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="700" />
+                  <Label text="700" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="486.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="800" />
+                  <Label text="800" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="554.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="900" />
+                  <Label text="900" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <Pane prefWidth="20.0" />
+            <VBox alignment="CENTER" layoutX="622.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="A100" />
+                  <Label text="A100" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="690.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="A200" />
+                  <Label text="A200" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="758.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="A400" />
+                  <Label text="A400" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="826.0" layoutY="10.0">
+               <children>
+                  <LetterAvatar colorNumber="A700" />
+                  <Label text="A700" textAlignment="CENTER" />
+               </children>
+            </VBox>
+         </children>
+         <StackPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </StackPane.margin>
+      </HBox>
+   </children>
+</StackPane>
