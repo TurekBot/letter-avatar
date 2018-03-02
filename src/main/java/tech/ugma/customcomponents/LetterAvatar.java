@@ -110,7 +110,7 @@ public class LetterAvatar extends Label {
 
     protected void styleAvatar(String hashCodeSource) {
         String color = calculateColor(hashCodeSource);
-        this.setStyle("-fx-background-color: " + color + colorNumber.get() + ";"); //-background-color: -deep-orange-400;
+        this.setStyle("-avatar-background-color: " + color + colorNumber.get() + ";"); //-avatar-background-color: -deep-orange-400;
     }
 
     private void initialize() {

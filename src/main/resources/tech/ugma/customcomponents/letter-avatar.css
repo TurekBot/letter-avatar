@@ -12,11 +12,12 @@
     -fx-alignment: center;
 
     /* The default text background is this color, but please do override it. */
-    -background-color: #0000008a;
-    -fx-background-color: -background-color;
-}
+    -avatar-background-color: #0000008a;
 
-.letter-avatar .text {
-    /* Automatically changes the color of the text based on the background color. */
-    /*-fx-fill: ladder(-background-color, white 0%, white 59%, black 60%, black 100%);*/
+    /*If we use -fx-background, modena.css will magically take care of the text fill for us. See line 204 of modena.css*/
+    -fx-background: -avatar-background-color;
+    /* I was under the impression that the -fx-background-color would already be set for me, but this does not seem
+       to be the case—so I set it here.*/
+    -fx-background-color: -avatar-background-color;
+
 }
