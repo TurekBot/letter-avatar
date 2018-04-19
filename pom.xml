@@ -6,7 +6,7 @@
 
     <groupId>tech.ugma.customcomponents</groupId>
     <artifactId>letter-avatar</artifactId>
-    <version>0.5</version>
+    <version>0.6.0</version>
 
 
     <build>
